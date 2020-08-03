@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385712622134",
+    "firebase_url": "https://covid19-fa66e.firebaseio.com",
+    "project_id": "covid19-fa66e",
+    "storage_bucket": "covid19-fa66e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385712622134:android:3836cdec348cdd73542697",
+        "android_client_info": {
+          "package_name": "com.kirat.covid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385712622134-7e3fjdm0v23rm4aj6u0tiuvncdben1cl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kirat.covid19",
+            "certificate_hash": "fd1103b109acfe10b03c97b55a262e6ff030bb80"
+          }
+        },
+        {
+          "client_id": "385712622134-80vuqv1rrr0k73t3h2tv2tni1h46p8ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqh12l97AM50yaiiuVltEdaCLNLLn98uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385712622134-80vuqv1rrr0k73t3h2tv2tni1h46p8ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

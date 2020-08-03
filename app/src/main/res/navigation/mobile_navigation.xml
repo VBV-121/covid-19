@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vaibhav.covid19.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_video" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.vaibhav.covid19.ui.video.VideoFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_video" />
+
+    <fragment
+        android:id="@+id/nav_trackCorona"
+        android:name="com.vaibhav.covid19.ui.trackCorona.trackCoronaFragment"
+        android:label="@string/menu_trackCorona"
+        tools:layout="@layout/fragment_trackcorona" />
+
+    <fragment
+        android:id="@+id/nav_fragment_form"
+        android:name="com.vaibhav.covid19.ui.trackCorona.trackCoronaFragment"
+        android:label="Form Fragment"
+        tools:layout="@layout/fragment_form2" />
+
+    <fragment
+        android:id="@+id/nav_updates"
+        android:name="com.vaibhav.covid19.ui.updates.UpdatesFragment"
+        android:label="Update"
+        tools:layout="@layout/fragment_updates" />
+
+    <fragment
+        android:id="@+id/nav_symptoms"
+        android:name="com.vaibhav.covid19.ui.symptoms.SymptomsFragment"
+        android:label="Symptoms"
+        tools:layout="@layout/fragment_symptoms" />
+
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.vaibhav.covid19.ui.photo.PhotoFragment"
+        android:label="Photos"
+        tools:layout="@layout/fragment_photo" />
+</navigation>
